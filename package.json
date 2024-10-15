@@ -1,0 +1,21 @@
+{
+  "name": "ros2_excavator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "marp -s",
+    "build": "marp build slides.md && cp src/index.html public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.0.0"
+  },
+  "marp": {
+    "inputDir": ".",
+    "output": "./public/slides/"
+  }
+}
