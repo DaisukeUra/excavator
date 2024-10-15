@@ -15,7 +15,6 @@
     "@marp-team/marp-cli": "^4.0.0"
   },
   "marp": {
-    "inputDir": ".",
     "output": "./public/slides/"
   }
 }
